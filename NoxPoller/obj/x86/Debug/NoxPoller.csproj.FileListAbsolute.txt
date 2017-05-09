@@ -1,0 +1,15 @@
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\NoxPoller.exe
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\NoxPoller.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\AutomationLib.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\Utilities.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\WindowsApis.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\amqmdnet.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\office.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\Utilities.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\AutomationLib.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\WindowsApis.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\bin\Debug\office.xml
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\obj\x86\Debug\NoxPoller.csprojResolveAssemblyReference.cache
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\obj\x86\Debug\NoxPoller.exe
+Y:\Coding\Projects\InvasionFarmPartialReset\NoxPoller\obj\x86\Debug\NoxPoller.pdb

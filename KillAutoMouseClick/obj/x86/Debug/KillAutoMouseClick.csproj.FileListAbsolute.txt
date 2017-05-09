@@ -1,0 +1,5 @@
+Y:\Coding\Projects\InvasionFarmPartialReset\KillAutoMouseClick\bin\Debug\KillAutoMouseClick.exe
+Y:\Coding\Projects\InvasionFarmPartialReset\KillAutoMouseClick\bin\Debug\KillAutoMouseClick.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\KillAutoMouseClick\obj\x86\Debug\KillAutoMouseClick.exe
+Y:\Coding\Projects\InvasionFarmPartialReset\KillAutoMouseClick\obj\x86\Debug\KillAutoMouseClick.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\KillAutoMouseClick\obj\x86\Debug\KillAutoMouseClick.csprojResolveAssemblyReference.cache

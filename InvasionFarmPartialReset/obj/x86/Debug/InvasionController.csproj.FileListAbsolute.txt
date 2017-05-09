@@ -1,0 +1,32 @@
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\InvasionController.exe
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\InvasionController.pdb
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\AutomationLib.dll
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\Utilities.dll
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\WindowsApis.dll
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\amqmdnet.dll
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\office.dll
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\Utilities.pdb
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\AutomationLib.pdb
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\WindowsApis.pdb
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\office.xml
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\obj\x86\Debug\InvasionController.csprojResolveAssemblyReference.cache
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\obj\x86\Debug\InvasionController.exe
+C:\Users\Jurm\Documents\Visual Studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\obj\x86\Debug\InvasionController.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\resetProcess.ico
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\InvasionController.exe
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\InvasionController.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\AutomationLib.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\Utilities.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\WindowsApis.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\amqmdnet.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\office.dll
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\Utilities.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\AutomationLib.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\WindowsApis.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\office.xml
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\obj\x86\Debug\InvasionController.exe
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\obj\x86\Debug\InvasionController.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\obj\x86\Debug\InvasionController.csprojResolveAssemblyReference.cache
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\InvasionController.exe.config

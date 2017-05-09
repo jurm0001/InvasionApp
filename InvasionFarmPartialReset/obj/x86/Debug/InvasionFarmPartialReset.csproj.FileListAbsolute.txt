@@ -1,0 +1,15 @@
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\InvasionFarmPartialReset.exe
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\InvasionFarmPartialReset.pdb
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\AutomationLib.dll
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\Utilities.dll
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\WindowsApis.dll
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\Microsoft.Office.Interop.Outlook.dll
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\amqmdnet.dll
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\office.dll
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\Utilities.pdb
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\AutomationLib.pdb
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\WindowsApis.pdb
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\bin\Debug\office.xml
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\obj\x86\Debug\InvasionFarmPartialReset.csprojResolveAssemblyReference.cache
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\obj\x86\Debug\InvasionFarmPartialReset.exe
+c:\users\jurm\documents\visual studio 2010\Projects\InvasionFarmPartialReset\InvasionFarmPartialReset\obj\x86\Debug\InvasionFarmPartialReset.pdb

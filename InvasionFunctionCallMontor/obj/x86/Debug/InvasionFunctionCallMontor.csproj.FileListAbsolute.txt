@@ -1,0 +1,9 @@
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFunctionCallMontor\bin\Debug\InvasionFunctionCallMontor.exe.config
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFunctionCallMontor\bin\Debug\InvasionFunctionCallMontor.exe
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFunctionCallMontor\bin\Debug\InvasionFunctionCallMontor.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFunctionCallMontor\obj\x86\Debug\InvasionFunctionCallMontor.Form1.resources
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFunctionCallMontor\obj\x86\Debug\InvasionFunctionCallMontor.Properties.Resources.resources
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFunctionCallMontor\obj\x86\Debug\InvasionFunctionCallMontor.csproj.GenerateResource.Cache
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFunctionCallMontor\obj\x86\Debug\InvasionFunctionCallMontor.exe
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFunctionCallMontor\obj\x86\Debug\InvasionFunctionCallMontor.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\InvasionFunctionCallMontor\obj\x86\Debug\InvasionFunctionCallMontor.csprojResolveAssemblyReference.cache
