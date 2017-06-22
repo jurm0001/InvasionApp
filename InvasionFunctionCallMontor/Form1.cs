@@ -18,20 +18,39 @@ namespace InvasionFunctionCallMontor
         public Form1()
         {
             InitializeComponent();
-            Timer timer = new Timer();
-            timer.Tick += new EventHandler(OnTimedEvent);
+            timer = new System.Timers.Timer();
+            timer.Elapsed += new System.Timers.ElapsedEventHandler(timer_Elapsed);
             timer.Interval = 2000;
+            timer.Enabled = true;
+            
             timer.Start();
 
         }
-        private void OnTimedEvent(Object source, EventArgs e)
+
+        void timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
         {
-            //timer.Interval =0;
+            timer.Stop();
             Process[] ps = Process.GetProcesses();
             Console.Write(ps[1].StartInfo.FileName);
-            Process[] mcp = (from x in ps where x.MainModule.ModuleName.Contains("MouseScripts") select x).OrderByDescending(c => c.StartTime).ToArray();
+            Process[] mcp;
+            try
+            {
+                //OrderByDescending(c => c.StartTime).
+                mcp = (from x in ps where x.MainModule.ModuleName.Contains("MouseScripts") select x).ToArray();
+            }
+            catch { timer.Interval = 2000; return; }
             Console.WriteLine(mcp.Length.ToString());
-            //timer.Interval = 2000;
+            listBox1.Items.Clear();
+            foreach (Process p in ps)
+                //if (p.MainModule.ModuleName.Contains("AutoMouseClick"))
+                   listBox1.Items.Add(p.ProcessName);
+            timer.Start();
+        }
+        
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

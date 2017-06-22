@@ -2,3 +2,4 @@ Y:\Coding\Projects\InvasionFarmPartialReset\Counts\bin\Debug\Counts.exe
 Y:\Coding\Projects\InvasionFarmPartialReset\Counts\bin\Debug\Counts.pdb
 Y:\Coding\Projects\InvasionFarmPartialReset\Counts\obj\x86\Debug\Counts.exe
 Y:\Coding\Projects\InvasionFarmPartialReset\Counts\obj\x86\Debug\Counts.pdb
+Y:\Coding\Projects\InvasionFarmPartialReset\Counts\obj\x86\Debug\Counts.csprojResolveAssemblyReference.cache

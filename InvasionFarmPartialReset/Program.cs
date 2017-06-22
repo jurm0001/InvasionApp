@@ -19,15 +19,14 @@ namespace InvasionController
             Food = 1, 
             Oil,
             Energy,
-            Steel,
-            Yeggs
+            Steel
         }
 
         protected enum RssTypeDPDT : int
         {            
             Oil = 1,
-            Energy,            
-            Yeggs
+            Energy            
+            
         }
         protected enum RssTypeDPLT : int
         {
@@ -37,6 +36,39 @@ namespace InvasionController
 
         static void Main(string[] args)
         {
+
+            Console.Title = "InvasionController";
+
+            IntPtr d = WindowsApis.User32.FindWindow(null, "InvasionController");
+            WindowsApis.Data.WindowsApiStructs.WINDOWPLACEMENT pp = new WindowsApis.Data.WindowsApiStructs.WINDOWPLACEMENT();
+
+            WindowsApis.User32.GetWindowPlacement(d, ref pp);
+            // 773 desk 993 laptop
+            WindowsApis.User32.SetWindowPos(d.ToInt32(), -1, 993, 0, (pp.rcNormalPosition.right - pp.rcNormalPosition.left),
+                pp.rcNormalPosition.bottom - pp.rcNormalPosition.top, 0x0040);
+            
+            //AutomationLib.AutomationControls.Control con = null;
+
+            //AutomationLib.WindowsAdapter bs = new AutomationLib.WindowsAdapter("Nox");
+            //bs.StartApplication(@"C:\Program Files (x86)\Nox\bin\Nox.exe");
+
+            //bs.BuildControlList();
+
+            //// main screen board
+            //con = bs._ControlList[0].ControlList[2];
+
+            //WindowsApis.Data.WindowsApiStructs.WINDOWPLACEMENT pp = new WindowsApis.Data.WindowsApiStructs.WINDOWPLACEMENT();
+
+            //WindowsApis.User32.GetWindowPlacement(bs.MainHandle, ref pp);
+            //WindowsApis.User32.SetWindowPos(bs.MainHandle.ToInt32(), -1, 0, 0, 511, 850, 0x0040);
+
+
+            //IntPtr d = WindowsApis.User32.FindWindow("Qt5QWindowToolSaveBits", "Nox");
+            //pp = new WindowsApis.Data.WindowsApiStructs.WINDOWPLACEMENT();
+            //WindowsApis.User32.GetWindowPlacement(d, ref pp);
+            //WindowsApis.User32.SetWindowPos(d.ToInt32(), -1, 511, 35, (pp.rcNormalPosition.right - pp.rcNormalPosition.left),
+            //    pp.rcNormalPosition.bottom - pp.rcNormalPosition.top, 0x0040);
+
             displayPercedntages();
             Reset(args);            
         }
@@ -140,13 +172,14 @@ namespace InvasionController
                 IntPtr handle = IntPtr.Zero;
                 AutomationLib.AutomationControls.Control con = null;
                 AutomationLib.AutomationControls.Controls.Button but = null;
+                AutomationLib.WindowsAdapter bs = new AutomationLib.WindowsAdapter("Nox");
 
                 if (full)
                 {
                     Console.WriteLine("Starting Nox...");
-                    Thread.Sleep(60000);
+                    //Thread.Sleep(60000);
 
-                    AutomationLib.WindowsAdapter bs = new AutomationLib.WindowsAdapter("Nox");
+                    
                     bs.StartApplication(@"C:\Program Files (x86)\Nox\bin\Nox.exe");
                     Thread.Sleep(60000);
 
@@ -154,15 +187,39 @@ namespace InvasionController
                     //mgMC = new RunMouseClickerApp("CloseTab", @"C:\Users\Jurm\Desktop\MouseScripts\BlueStacksSetUp.mamc");
                     //mgMC.Run(0, 3000, "BlueStacksSetUp.mamc - Auto Mouse Click");
                     AutomationLib.WindowsAdapter bsm = new AutomationLib.WindowsAdapter("StartInvasion");
-                    bsm.StartApplication(@"C:\Users\Jurm\Desktop\MouseScripts\BlueStacksSetUp.mamc");
+                    bsm.StartApplication(@"C:\Users\Jurm\Desktop\MouseScripts\StartInvasion.mamc");
+                    Thread.Sleep(5000);
                     //close.ShutDown();
-                    IntPtr handle1 = WindowsApis.User32.FindWindow("MurGeeAutoMouseClick", "BlueStacksSetUp.mamc - Auto Mouse Click");
+                    IntPtr handle1 = WindowsApis.User32.FindWindow("MurGeeAutoMouseClick", "StartInvasion.mamc - Auto Mouse Click");
                     bsm.BuildControlList(handle1);
                     AutomationLib.AutomationControls.Control con1 = bsm.GetControl("S&tart");
                     AutomationLib.AutomationControls.Controls.Button but1 = new AutomationLib.AutomationControls.Controls.Button(con1.Handle);
                     but1.ClickButton();
-                    Thread.Sleep(30000);
+                    Thread.Sleep(60000);
                     bsm.ShutDown();
+
+
+
+                    // after invasion started, move and size
+                    Console.WriteLine("Moving Nox");
+                    bs.BuildControlList();
+
+                    // main screen board
+                    
+                    WindowsApis.Data.WindowsApiStructs.WINDOWPLACEMENT pp = new WindowsApis.Data.WindowsApiStructs.WINDOWPLACEMENT();
+                    WindowsApis.User32.GetWindowPlacement(bs.MainHandle, ref pp);
+                    // 511 des 490 lap
+                    WindowsApis.User32.SetWindowPos(bs.MainHandle.ToInt32(), -1, 0, 0, pp.rcNormalPosition.right - pp.rcNormalPosition.left,
+                        pp.rcNormalPosition.bottom - pp.rcNormalPosition.top, 0x0040);
+
+                    // move side bar
+                    IntPtr d = WindowsApis.User32.FindWindow("Qt5QWindowToolSaveBits", "Nox");
+                    WindowsApis.Data.WindowsApiStructs.WINDOWPLACEMENT pp2 = new WindowsApis.Data.WindowsApiStructs.WINDOWPLACEMENT();
+                    WindowsApis.User32.GetWindowPlacement(d, ref pp2);
+                    WindowsApis.User32.SetWindowPos(d.ToInt32(), -1, pp.rcNormalPosition.right - pp.rcNormalPosition.left, pp2.rcNormalPosition.top, (pp2.rcNormalPosition.right - pp2.rcNormalPosition.left),
+                        pp2.rcNormalPosition.bottom - pp2.rcNormalPosition.top, 0x0040);
+
+
 
                     Console.WriteLine("Logging out...");
                     AutomationLib.WindowsAdapter logout = new AutomationLib.WindowsAdapter("LogOutSlowReset");
@@ -188,14 +245,14 @@ namespace InvasionController
                     //mgMC = new RunMouseClickerApp("Main", @"C:\Users\Jurm\Desktop\MouseScripts\Main.mamc");
                     //mgMC.Run(5000, 25000, "Main.mamc - Auto Mouse Click");
                     int start = 1;
-                    int end = 6;                    
+                    int end = 5;                    
                     Type t = typeof(RssType);
                     if (processType == "D")
                     {
                         Console.WriteLine("Dual Processing Mode Active.");
                         if (Environment.MachineName == "JURM-OFFICEPC")
                         {
-                            end = 4;
+                            end = 3;
                             t = typeof(RssTypeDPDT);
                         }
                         else
